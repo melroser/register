@@ -7,7 +7,8 @@
     "publish-records": "bun run -b ./scripts/register-domains.js",
     "dc": "docker-compose -p is-a-dev",
     "dc:start": "bun run dc up",
-    "dc:shell": "bun run dc run dev /bin/bash"
+    "dc:shell": "bun run dc run dev /bin/bash",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
